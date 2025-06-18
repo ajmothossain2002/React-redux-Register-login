@@ -1,0 +1,27 @@
+.navbar{
+    background-color: #F85C70;
+}
+.navbar-nav li{
+    padding:0 15px; 
+}
+.navbar-nav li a:hover{
+    text-decoration: none;
+}
+.navbar-nav li a, .logout{
+    color: white;
+    font-size: 18px;
+}
+.btn:hover{
+ background-color: white;
+ color:black !important;
+}
+.btn-outline-success,.btn-outline-success:hover  {
+    color: white;
+    border-color: white;
+}
+
+@media(max-width:992px){
+    .form-inline{
+        justify-content: center;
+    }
+}
